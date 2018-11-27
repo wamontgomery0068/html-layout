@@ -1,0 +1,79 @@
+body {
+    background-color: white;
+    /* border: solid 2px black; */
+    height: 120vh;
+    width: 96vw;
+}
+
+.Top_Container {
+    border: solid 4px black;
+    display: flex;
+    height: 30vh;
+    width: 94vw;
+    margin: 2% 2% 2% 2%;
+}
+
+.Skinny_Rectangle {
+    background-color: purple;
+    /* border: solid 1px black; */
+    display: flex;
+    height: 19.5vh;
+    width: 4vw;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+.Fat_Rectangle {
+    background-color: green;
+    /* border: solid 1px black; */
+    display: flex;
+    height: 26vh;
+    width: 30vw;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.Blue_Circle {
+    height: 26vh;
+    width: 16vw;
+    background-color:skyblue;
+    border-radius: 50%;
+    display: flex;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.Middle_Container {
+    border: dotted 4px black;
+    display: flex;
+    height: 40vh;
+    width: 94vw;
+    margin: 2% 2% 2% 2%;
+}
+
+.Center_Container {
+    background-color: hsl(54, 100%, 90%);
+    box-shadow: 10px 10px 5px grey;
+    display: flex;
+    height: 20vh;
+    width: 96.5vw;
+    margin: 5% 5% 5% 5%;
+}
+
+.Bottom_Container {
+    /* border: solid 1px black; */
+    box-shadow: 10px 10px 5px grey;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	align-content: center;
+    height: 50vh;
+    width: 30vw;
+    margin-left: 35%;
+    margin-bottom: 2%;
+}
+
+h1 {
+    color: purple;
+}
